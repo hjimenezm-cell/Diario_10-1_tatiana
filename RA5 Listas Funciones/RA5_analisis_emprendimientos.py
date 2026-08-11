@@ -32,7 +32,7 @@ def imprirmir_reporte(datos_reporte):
     # se recorre cada fila del reporte .
     for fila in datos_reporte:
         print(f"sede: {fila['nombre']}")
-        print(f"provincia: {fila['provincia ']}")
+        print(f"provincia: {fila['provincia']}")
         print(f"tipo: {fila['tipo']}")
         print(f"total semanal: ₵{fila['total']:,.0f}")
         #se imprime el promedio diario con formato de moneda 
